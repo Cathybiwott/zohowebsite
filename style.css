@@ -1,0 +1,16 @@
+body{
+            
+    background-repeat: no-repeat;
+    text-align: center;
+    background-color: darkturquoise;
+}
+ #img{
+    float: left;
+    height: 650px;
+
+} 
+.container{
+    justify-content: space-evenly;
+    display: flex;
+    padding-right: 30px;
+}

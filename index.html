@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>signup</title>
-    <style>
-        body{
+    <link rel="stylesheet" href="/style.css">
+    <style> 
+    /* body{
             
             background-repeat: no-repeat;
             text-align: center;
@@ -14,17 +15,25 @@
         }
          #img{
             float: left;
-            height: 800px;
+            height: 650px;
         
         } 
+        .container{
+            justify-content: flex-start;
+            display: flex;
+            padding-right: 30px;
+        }   */
     </style>
 </head>
 <body>
-    <h2>Sign Up to Zoho</h2>
+    <div class="container">
     <img src="/images/s-tsuchiya-QcYLHfwD8zA-unsplash.jpg" id="img"> 
     <form class="form">
+        <h2>Sign Up to Zoho</h2>
         <label>Already have an account?
             <button><a href="login.html">login</a></button>
+            <br>
+            <br>
         </label>
         <label>FirstName</label><br/>
         <input type="text" placeholder=" fullname i.e John"><br/><br/>
@@ -43,5 +52,6 @@
         <button>Sign Up with Google</button>
         </label>
     </form>
+    </div>
 </body>
 </html>

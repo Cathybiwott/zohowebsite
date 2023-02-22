@@ -1,0 +1,10 @@
+body{
+    background-color: aquamarine;
+
+}
+.container{
+    justify-content: space-between;
+    display: flex;
+    padding: right 30px;
+    color: bisque;
+}

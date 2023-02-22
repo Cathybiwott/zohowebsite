@@ -1,0 +1,7 @@
+.container table,th,td{
+    border-collapse: collapse;
+    border: solid;
+    background-color: bisque;
+    padding: 15px;
+    justify-content: space-evenly;
+}
